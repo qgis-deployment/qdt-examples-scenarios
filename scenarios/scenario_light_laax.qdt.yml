@@ -78,7 +78,8 @@ steps:
         - plugins_cache
         - plugins_installed
 
-  - name: Set default profile to conf_qgis_fr
+  - name: Set default profile to QGIS User Conference 2026
     uses: default-profile-setter
     with:
+      profile: "QGIS User Conference 2026"
       force_profile_selection_policy: 2
