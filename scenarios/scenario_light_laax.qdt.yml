@@ -74,13 +74,13 @@ steps:
   - name: Cleanup stale resources
     uses: cleanup-manager
     with:
-    deletion_policy: trash_or_delete
-    dry_run: true
-    scopes:
-      - plugins_cache
-      - plugins_installed
+      deletion_policy: trash_or_delete
+      dry_run: true
+      scopes:
+        - plugins_cache
+        - plugins_installed
 
   - name: Set default profile to conf_qgis_fr
-      uses: default-profile-setter
-      with:
-        force_profile_selection_policy: 2
+    uses: default-profile-setter
+    with:
+      force_profile_selection_policy: 2
