@@ -79,3 +79,8 @@ steps:
     scopes:
       - plugins_cache
       - plugins_installed
+
+  - name: Set default profile to conf_qgis_fr
+      uses: default-profile-setter
+      with:
+        force_profile_selection_policy: 2
