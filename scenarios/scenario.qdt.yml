@@ -18,6 +18,7 @@ steps:
         - "/usr/bin/qgis"
       version_priority:
         - "3.44"
+        - "4.4"
         - "4.2"
         - "3.40"
         - "4.0"
