@@ -34,4 +34,3 @@ ci:
   skip:
     # network access is not available in pre-commit.ci, so skip JSON schema validation in CI
     - check-jsonschema
-
