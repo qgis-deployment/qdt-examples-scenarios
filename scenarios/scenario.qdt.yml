@@ -37,6 +37,7 @@ steps:
   - name: Synchronize installed profiles
     uses: qprofiles-synchronizer
     with:
+      qdt_watermark: variables
       sync_mode: overwrite
 
   - name: Download plugins to QDT working folder
